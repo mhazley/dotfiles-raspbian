@@ -1,4 +1,4 @@
-" ========================================================================
+" ====================================================================
 
 syntax enable
 set background=dark
@@ -34,7 +34,7 @@ set directory=~/.tmp              " Don't clutter my dirs up with swp and tmp fi
 set list listchars=tab:»·,trail:· " Display extra whitespace
 set cursorline                    " highlight current line
 set cursorcolumn
-highlight CursorColumn ctermfg=8 ctermbg=247 cterm=NONE
+highlight CursorColumn ctermfg=7 ctermbg=240 cterm=NONE
 set clipboard=unnamed             " use OS clipboard
 
 " Keep focus split large, others minimal

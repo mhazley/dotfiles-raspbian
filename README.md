@@ -49,18 +49,9 @@ Clone this repo.
 
     git clone https://github.com/mhazley/dotfiles-raspbian.git ~/.dotfiles
 
-Symlink the rc files.
+Run `setup.sh` to complete the setup.
 
-    ln -nfs ~/.dotfiles/gitignore ~/.gitignore_global
-    ln -nfs ~/.dotfiles/gitconfig ~/.gitconfig
-    ln -nfs ~/.dotfiles/tmux.conf ~/.tmux.conf
-    ln -nfs ~/.dotfiles/vimrc ~/.vimrc
-    ln -nfs ~/.dotfiles/zshrc ~/.zshrc
-    source ~/.zshrc
-
-Set up a `~/.tmp` directory (needed by `vim`)
-
-    mkdir ~/.tmp
+    ~/.dotfiles/setup.sh
 
 ### Extras
     
